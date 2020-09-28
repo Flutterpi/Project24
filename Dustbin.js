@@ -1,7 +1,7 @@
 class Dustbin {
     constructor(x, y, height,angle) {
       var options = {
-        //isStatic: true,
+        isStatic: true,
         'restitution':0,
         'friction':1.0,
         'density':1.0
